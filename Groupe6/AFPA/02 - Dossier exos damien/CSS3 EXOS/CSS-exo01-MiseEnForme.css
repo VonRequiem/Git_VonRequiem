@@ -1,0 +1,28 @@
+body {
+    background-color: #c6c0a0;
+    font-family: Georgia;
+}
+h2 {
+    color: #7d775c;
+    font-size: 1em;
+    font-style: bold, oblique, center;
+    letter-spacing: 1px;
+}
+h3 {
+    color: #7d775c;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+li {
+    margin: 12px;
+}
+.damien {
+    color: green;
+}
+
+#duree{
+    color : red;
+    font-size: 2em;
+    text-decoration: underline;
+}

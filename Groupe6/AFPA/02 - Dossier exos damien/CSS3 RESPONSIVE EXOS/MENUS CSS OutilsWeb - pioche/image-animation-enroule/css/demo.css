@@ -1,0 +1,58 @@
+@import url('normalize.css');
+
+/* General Demo Style */
+@font-face {
+  font-family: 'icons';
+  src: url('fonts/icons.eot');
+  src: url('fonts/icons.eot?#iefix') format('embedded-opentype'),
+       url('fonts/icons.woff') format('woff'),
+       url('fonts/icons.ttf') format('truetype'),
+       url('fonts/icons.svg#icons') format('svg');
+  font-weight: normal; font-style: normal;
+}
+
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	background: #FFFFFF;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+a{
+	color: #555;
+	text-decoration: none;
+}
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+.main{
+	width: 672px;
+	height: 480px;
+	padding: 30px 0;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.support-note span{
+	color: #ac375d;
+	font-size: 16px;
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0;
+}
+.no-cssanimations .support-note span.no-cssanimations,
+.no-csstransforms .support-note span.no-csstransforms,
+.no-csstransforms3d .support-note span.no-csstransforms3d,
+.no-csstransitions .support-note span.no-csstransitions{
+	display: block;
+}

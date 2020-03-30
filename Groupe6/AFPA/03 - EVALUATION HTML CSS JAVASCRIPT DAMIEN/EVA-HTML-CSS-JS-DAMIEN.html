@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="EVA-HTML-CSS-JS-DAMIEN.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <title>EVALUATION 01</title>
+</head>
+<body>
+<!--en tete-->
+    <div id="en-tete">
+        <div id="en-tete-logo">
+            <img src="IMG-EVAL/baba.png" id="baba-logo">
+        </div>
+        <div id="en-tete-titre">
+            <h1>FO<span>BABAO</span>RUM</h1>
+            <h2>A consommer sans modération!!!</h2>
+        </div>
+    </div>
+<!--menu connection-->
+    <div id="aut">
+        <p><strong>Bienvenu(e) sur notre Babao-forum!</strong></p>
+        <p>Si vous êtes déjà compté(e) parmis nos membres, connectez vous <button id="toConnect">ICI</button> .</p>
+        <p>Sinon, rejoignez nous en vous inscrivant <button id="toRegister">L&#192</button> !</p>
+    </div>
+<!--formulaire inscription-->
+    <div id="register">
+        <p>Bienvenu(e) chez nous!</p>
+        <p>Veuillez s'il vous plait renseigner ce petit formulaire pour valider votre inscription:</p>
+        <form action="html du formulaire de connection" id="form01" method="get">
+            <p>Nom:<input type="text" name="le_nom" class="champ"/></p>
+            <p>Prénom:<input type="text" name="le_prenom" class="champ"/></p>
+            <p>Pseudo:<input type="text" name="pseudo" class="champ"/></p>
+            <p>E-mail:<input type="text" name="email" class="champ"/></p>
+            <p>Mot de passe:<input type="password" name="password" class="champ"/></p>
+            <p>Répetez:<input type="password" name="confirm_password" class="champ"/></p>
+            <ul>
+                <li><input type="radio" name="sexe" value="gars" checked/>Un gars?</li>
+                <li><input type="radio" name="sexe" value="fille"/>Une fille?</li>
+                <li><input type="radio" name="sexe" value="les_deux"/>Les deux?!?</li>
+            </ul>
+            <p><input type="submit" value="C'est parti!" id="val_register"/></p>
+        </form>
+    </div>
+<!--formulaire connection-->
+    <div id="form_connection">
+        <p>Content de vous voir!</p>
+        <p>Veuillez s'il vous plait entrer vos identifiants de connection:</p>
+        <form action="page du forum full user" id="form02" method="get">
+            <p>Pseudo:<input type="text" name="pseudo" class="champ"/></p>
+            <p>Mot de passe:<input type="password" name="password" class="champ"/></p>
+            <p><input type="submit" value="Valider" id="val_connect_user"/></p>
+        </form>
+    </div>
+<script src="EVA-HTML-CSS-JS-DAMIEN.js"></script>
+</body>
+</html>

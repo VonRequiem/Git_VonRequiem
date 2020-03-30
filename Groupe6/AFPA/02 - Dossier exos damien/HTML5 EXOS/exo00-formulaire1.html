@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="exo-formulaire1.css">
+    <link href="https://fonts.googleapis.com/css?family=Italianno&display=swap" rel="stylesheet">
+            <title>exo formulaire</title>
+
+
+
+</head>
+    
+<body>
+    
+    <h1>Formulaire AFPA pour faire passer le temps <br>en attendant d'avoir enfin les Pcs</h1>
+    
+    <form class="form-style-4" method="post">
+<label for="field1">
+<span>Nom</span><input type="text" name="field1" required="true" />
+</label>
+<label for="field2">
+<span>E-mail</span><input type="email" name="field2" required="true" />
+</label>
+<label for="field3">
+<span>Sujet</span><input type="text" name="field3" required="true" />
+</label>
+<label for="field4">
+<span>Votre message</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+</label>
+<label>
+    <input type="submit" value="Envoyer" /><span> </span>
+    
+</label>
+</form>
+        <script type="text/javascript">
+//auto expand textarea
+function adjust_textarea(h) {
+    h.style.height = "15px";
+    h.style.height = (h.scrollHeight)+"px";
+}
+</script>
+        
+<div id="container">
+    <a href="https://www.reddit.com/r/noisygifs/comments/2gtt6n/kaaaaa_boom/">
+  <button class="learn-more">
+    <span class="circle">
+      <span class="icon arrow"></span>
+    </span>
+      <span class="button-text"> Boom!!!</span>
+  </button>
+        </a>
+</div>    
+    
+<div id="container">
+    <a href="https://www.youtube.com/watch?v=r94a51HONHA">
+  <button class="learn-more">
+    <span class="circle">
+      <span class="icon arrow"></span>
+    </span>
+      <span class="button-text"> Boom!!! 2</span>
+  </button>
+        </a>
+</div>    
+    
+ <div id="container">
+    <a href="http://www.1001jeux.fr/aventure/star-wars-empire-vs-rebels-2016">
+  <button class="learn-more">
+    <span class="circle">
+      <span class="icon arrow"></span>
+    </span>
+      <span class="button-text"> Soyons sages</span>
+  </button>
+        </a>
+</div>   
+    
+
+    </body>
+
+
+</html>
+
+

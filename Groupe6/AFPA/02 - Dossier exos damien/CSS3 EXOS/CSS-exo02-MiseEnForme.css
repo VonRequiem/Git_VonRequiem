@@ -1,0 +1,40 @@
+body {
+    background-color: #c6c0a0;
+    font-family: Georgia;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h2 {
+    color: #7d775c;
+    font-size: 2em;
+    font-style: bold, oblique, center;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h3 {
+    color: #7d775c;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+li {
+    margin: 12px;
+}
+.damien {
+    color: green;
+}
+
+#duree{
+    color : red;
+    font-size: 2em;
+    text-decoration: underline;
+}
+#container {
+    border-radius: 10px;
+    box-shadow: 8px 8px 12px #aaa;
+    font-size: 75%;
+    font-family: Georgia;
+    background-color: white;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="LaLigneRouge.css" rel="stylesheet">
+    <title>Authentification</title>
+</head>
+<body>
+<!--fenetre d'authentification-->
+<div id="authen">
+    <p>Bonjour,</p>
+    <p>Nous allons verifier votre identité.</p>
+
+    <div id="login">
+        <label for="name1">Identifiant: </label>
+        <input type="text" id="name1" name="name" required
+               minlength="4" maxlength="8" size="10">
+    </div>
+
+    <div id="password">
+        <label for="name2">Mot de passe: </label>
+        <input type="text" id="name2" name="name" required
+               minlength="4" maxlength="8" size="10">
+    </div>
+
+    <div id="oubli" align="right">
+    <a href="#">Mot de passe oublié?</a>
+    </div>
+
+    <div id="button-id" align="right">
+        <button><a href="#">Se connecter</a></button>
+    </div>
+
+</div>
+<!--alert echec connexion MDP-->
+<div id="alert-id">
+    <p>Identifiant ou mot de passe invalide.</p>
+    <p>En cas de perte de votre mot de passe, veuillez cliquer sur le lien "Mot de passe oublié?"</p>
+    <p>Si vous n'arrivez toujours pas à vous connecter, veuillez verifier l'exactitude de vos données de connexion et/ou prendre contact auprès de (photographe).</p>
+</div>
+</body>
+</html>

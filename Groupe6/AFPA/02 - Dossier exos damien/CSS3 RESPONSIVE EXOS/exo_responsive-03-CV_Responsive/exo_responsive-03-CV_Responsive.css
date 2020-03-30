@@ -1,0 +1,203 @@
+/*grille pagination*/
+#grille {
+    justify-content: space-around;
+    width: 100%;
+}
+.test{
+    width: 100%;
+    
+}
+#civil {
+    background-image: url(ciel.jpg);
+    float:left;
+    width: 99%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    line-height:5px;
+    border-bottom: solid 5px black;
+    border-left: solid 5px black;
+    border-top: solid 5px #7f98c7;
+    border-right: solid 5px #7f98c7;
+    margin: 10px;
+}
+#civil p:nth-child(1) {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#formation {
+    /*deco*/
+    background-image: url(ciel.jpg);
+    width: 99%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-bottom: solid 5px black;
+    border-left: solid 5px black;
+    border-top: solid 5px #7f98c7;
+    border-right: solid 5px #7f98c7;
+    margin: 10px;
+}
+#ExpPro {
+    /*deco*/
+    background-image: url(ciel.jpg);
+    width: 99%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 0;
+    border-bottom: solid 5px black;
+    border-left: solid 5px black;
+    border-top: solid 5px #7f98c7;
+    border-right: solid 5px #7f98c7;
+    margin: 10px;
+}
+
+/*menu accordeon a placer*/
+#divers {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    align-content:left;
+    background-image: url(ciel.jpg);
+    border-bottom: solid 5px black;
+    border-left: solid 5px black;
+    border-top: solid 5px #7f98c7;
+    border-right: solid 5px #7f98c7;
+    margin: 10px;
+    padding-left: 5px;
+}
+#menu-accordeon {
+    padding:0;
+    padding-right: 10px;
+    margin:0;
+    list-style:none;
+    text-align: center;
+    min-width: 266px;
+    
+  
+}
+#menu-accordeon ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+    min-width: 266px;
+}
+
+#menu-accordeon li {
+    background-color:#729EBF; 
+    background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+    background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+    border-radius: 6px;
+    margin-bottom:2px;
+    box-shadow: 3px 3px 3px #999;
+    border:solid 1px #333A40;
+}
+#menu-accordeon li li {
+    max-height:0;
+    overflow: hidden;
+    transition: all .5s;
+    border-radius:0;
+    background: #444;
+    box-shadow: none;
+    border:none;
+    margin:0;
+}
+#menu-accordeon a {
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
+    font-size:1.2em;    
+}
+#menu-accordeon li ul li a {
+    text-align: left;
+    margin-left: 15px;
+}
+#menu-accordeon ul li a, #menu-accordeon li:focus-within li a {
+    font-size:1em;
+}
+#menu-accordeon li:focus-within {
+    background: #729EBF;
+}
+#menu-accordeon li li:hover {
+    background: #999;
+}
+#menu-accordeon ul li:last-child {
+    border-radius: 0 0 6px 6px;
+    border:none;
+}
+#menu-accordeon li:focus-within li {
+    max-height: 15em;
+}
+/*fin menu accordeon*/
+
+/*deco*/
+.test > header {
+    text-align: center;
+    background-image: url(ciel.jpg);
+    font-weight: bold;
+    width: 99.3%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left 15px;
+    padding: 5px;
+    border-bottom: solid 5px black;
+    border-left: solid 5px black;
+    border-top: solid 5px #7f98c7;
+    border-right: solid 5px #7f98c7;
+    margin: 10px;
+}
+h1 {
+    font-weight: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px 0 15px 15px;
+        
+}
+h2 {
+    font-family: Verdana;
+} 
+table {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding: 5px;
+    font-size: 1.5em
+}
+table td:nth-child(1) {
+    font-weight: bold;
+}
+#profil {
+    width: 246px;
+    max-width: 100%;
+	height: auto;
+    padding: 10px;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgba(110, 110, 114, 0.78);
+}
+body > header {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/*pagination responsive smartphone*/
+@media (min-width: 640px) {
+    #grille {
+        display: flex;
+    }
+    .test {
+        width: 75%!important;
+    }
+    #divers {
+        width: 20%!important;
+    }
+}

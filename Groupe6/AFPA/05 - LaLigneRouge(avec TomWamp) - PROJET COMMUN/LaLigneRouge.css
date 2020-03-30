@@ -1,0 +1,99 @@
+body {
+    background-color: #F4FBFB;
+}
+#tête {
+    display: inline-flex;
+    background-color: #FEFDFB;
+    width: 100%;
+}
+#img-logo {
+    margin: 5px 0 5px 5px;
+}
+#logo {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+#menu {
+    background-color: #FEFDFB;
+    width: 215px;
+    height: auto;
+    background-size: contain;
+
+    }
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    padding-inline-start: 5px;
+    padding: 5px;
+}
+li {
+    list-style: none;
+    border: 1px solid black;
+    font-size: 1.4em;
+    width: 193px;
+}
+#lang {
+    display: flex;
+}
+
+label {
+    display: inline;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+input,
+label {
+    margin: .4rem 0;
+}
+
+div#authen {
+    display: block;
+    border: 2px solid black;
+    width: 500px;
+    height: 250px;
+    padding: 15px 15px 15px 40px;
+    font-size: 1rem;
+    background-color: #778899;
+}
+div#login {
+    display: flex;
+    justify-content: space-around;
+}
+div#password {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 11px;
+    padding-right: 12px;
+
+}
+input#name1 {
+    background-color: #FEFDFB;
+    justify-content: flex-end;
+    width: 250px;
+}
+input#name2 {
+    background-color: #FEFDFB;
+    justify-content: flex-end;
+    width: 250px;
+}
+div#oubli {
+    float: right;
+    padding-right: 40px;
+}
+div#button-id {
+    padding-right: 40px;
+    padding-top: 40px;
+    justify-content: flex-end;
+
+}
+
+#alert-id {
+    border: 2px solid black;
+    width: 550px;
+    height: 150px;
+    font-size: 1rem;
+    padding: 15px 15px 15px 40px;
+    background-color: #778899;
+}

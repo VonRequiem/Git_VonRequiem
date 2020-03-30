@@ -1,0 +1,76 @@
+/*boite*/
+body {
+    background-color: #c6c0a0;
+    font-family: Georgia;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h2 {
+    color: #7d775c;
+    font-size: 2em;
+    font-style: bold, oblique, center;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h3 {
+    color: #7d775c;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+li {
+    margin: 12px;
+}
+.damien {
+    color: green;
+}
+
+#duree{
+    color : red;
+    font-size: 2em;
+    text-decoration: underline;
+}
+#container {
+    border-radius: 10px;
+    box-shadow: 8px 8px 12px #aaa;
+    font-size: 75%;
+    font-family: Georgia;
+    background-color: white;
+    float: right;
+    width: 60%;
+}
+
+/*Liens*/
+
+#menu {
+ margin: 0;
+ padding: 0;
+ font: bold 1em "Georgia" ,Verdana;
+ list-style-type: none;
+float: left;
+    width: 160px;
+}
+#menu a {
+ color: #508768;
+ background-color: #BDD7B5;
+}
+#menu a:hover, 
+#menu a:focus {
+ color: #BDD7B5;
+ background-color: #508768;
+}
+#menu a {
+ display: block;
+ margin: 5%;
+ color: #508768;
+ text-decoration: none;
+ line-height:2em;
+ width:80%;
+ border:1px solid blue;
+ background-color: #BDD7B5;
+ text-align: center;
+border-radius: 15px;
+}
+

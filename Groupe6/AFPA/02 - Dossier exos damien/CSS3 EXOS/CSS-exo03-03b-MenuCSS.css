@@ -1,0 +1,28 @@
+#menu {
+ margin: 0;
+ padding: 0;
+ font: bold 1em "Georgia" ,Verdana;
+ list-style-type: none;
+}
+#menu a {
+ color: #508768;
+ background-color: #BDD7B5;
+}
+#menu a:hover, 
+#menu a:focus {
+ color: #BDD7B5;
+ background-color: #508768;
+}
+
+#menu a {
+ display: block;
+ margin: 5%;
+ color: #508768;
+ text-decoration: none;
+ line-height:2em;
+ width:80%;
+ border:1px solid blue;
+ background-color: #BDD7B5;
+ text-align: center;
+border-radius: 15px;
+}

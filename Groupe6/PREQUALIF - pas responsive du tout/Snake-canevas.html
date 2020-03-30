@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <title>Snake JS</title>
+    </head>
+
+<body>
+        <div id="tete" style="text-align:center">
+        <h1> Jeu du serpent en version Javascript</h1>
+        <canvas id="snakeplane" style="border: 2px solid #33ff72"></canvas>
+            <p>Ceci est votre score est là: </p>
+    </div>
+    
+    <script>
+    
+var largeur = 57 * 14, hauteur = 41 * 14;
+
+var monCanvas = document.getElementById('snakeplane');
+var ctx = monCanvas.getContext('2d');
+        
+monCanvas.width = largeur;
+monCanvas.height = hauteur;
+        
+var snakeHead = {} ;
+var snakeBody = [] ;
+        
+var taille = 5 ;
+        
+var pomme = { coordX: -10 , coordY : 0 , couleur : "red"};
+        
+        
+snakeHead.coordX = largeur / 2 ;
+snakeHead.coordY = hauteur / 2 ;
+snakeHead.couleur = "blue" ;
+        
+var jeu = setInterval(boucleDeJeu, 1000 /30);
+var score = 0;
+ 
+function initJeu() {
+    var oldtxt = document.getElementById("tete").querySelector("p");
+    var newtxt = document.createElement("p");
+    var intxt = document.createTextNode("Ceci est votre score est là:  " + score);
+    newtxt.appendChild(intxt);
+    document.getElementById("tete").replaceChild(newtxt, oldtxt);
+}        
+        
+        
+function boucleDeJeu() {
+    
+    test();
+    if (pomme.coordX < 0) { newPomme() }
+    
+    ctx.fillStyle = "#f7fdaf";
+    ctx.fillRect(0,0,largeur,hauteur);
+  
+
+    
+deplace();
+estampiller(snakeHead);
+    
+    for ( var i = 0 ; i < snakeBody.length ; i++ ) { estampiller(snakeBody[i]) ; }
+    
+    estampiller(pomme);
+    
+    initJeu();
+
+}
+        
+function estampiller(element) {
+    ctx.fillStyle = element.couleur;
+    ctx.beginPath();
+    ctx.arc(element.coordX, element.coordY, 7, 0, 2*Math.PI);
+    ctx.fill()
+}
+        
+var direct = { X : 2 , Y : 0 }
+    
+window.addEventListener('keydown', direction);
+    
+function direction(e) {
+    switch (e.key) {
+    case "ArrowUp" : direct.X = 0; direct.Y = -1;
+    break;
+    case "ArrowDown" : direct.X = 0; direct.Y = 1;
+    break;
+    case "ArrowLeft" : direct.X = -1; direct.Y = 0;
+    break;
+    case "ArrowRight" : direct.X = 1; direct.Y = 0;
+    break;
+    default: break;
+}
+}
+
+
+function deplace() {
+    if (direct.X != 2) {
+        snakeBody.push({ coordX : snakeHead.coordX , coordY : snakeHead.coordY , couleur: snakeHead.couleur })
+        if (snakeBody.length > taille) { snakeBody.shift() }
+        snakeHead.coordX += 14 * direct.X ;
+        snakeHead.coordY += 14 * direct.Y ;
+        
+        
+    }
+}
+        
+        
+function test() {
+    
+    if (snakeHead.coordX < 7 || snakeHead.coordX > largeur - 7 || snakeHead.coordY < 7 || snakeHead.coordY > hauteur - 7) { stop() }
+    
+    for (var i = 0 ; i < snakeBody.length ; i++ ) {
+        if ( snakeBody[i].coordX == snakeHead.coordX && snakeBody[i].coordY == snakeHead.coordY) { stop() } }
+    if ( snakeHead.coordX == pomme.coordX && snakeHead.coordY == pomme.coordY ) {
+        score++;
+        taille += 5 ;
+        newPomme();
+           
+    }
+    }     
+        
+function stop() {
+    clearInterval(jeu);
+    alert('Ah ah ah ah perdu pov nase!!! ');
+  
+    var newVar = confirm("Une autre restartation? ");
+    
+    if (newVar) {
+         window.location="Snake-canevas.html" ;
+        }else {
+        
+        window.location="https://www.youtube.com/watch?v=WYNWvHEF04k";
+        
+    }
+    }
+
+        
+function newPomme() {
+    do {
+        pomme.coordX = Math.floor(Math.random() * 57) * 14 + 7 ;
+        pomme.coordY = Math.floor(Math.random() * 41) * 14 + 7 ;
+    }
+    while (verifPomme(pomme.coordX, pomme.coordY))
+        estampiller(pomme);
+}
+
+function verifPomme(pommeX, pommeY) {
+    
+    if (pommeX == snakeHead.coordX && pommeY == snakeHead.coordY) {
+        return true ;
+        
+    }
+    for (var i = 0 ; i < snakeBody.length; i++ ) {
+        if (pommeX == snakeBody[i].coordX && pommeY == snakeBody[i].coordY) {
+            return true ;
+        }
+    }
+return false;
+}
+        
+        
+        
+        
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+    
+</html>
+
+

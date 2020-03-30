@@ -1,0 +1,52 @@
+.menu {
+    padding:0 0 0 1em; 
+    margin:0; 
+    list-style:none; 
+    :43px; position:relative; 
+    background:transparent url(../images/back.gif) repeat-x left top; 
+    font-size:11px;
+}
+.menu li {
+    float:left; 
+    height:43px;
+}
+.menu li a {
+    display:block; 
+    float:left; 
+    height:40px; 
+    line-height:35px; 
+    color:#888; 
+    text-decoration:none; 
+    font-family:arial, verdana, sans-serif; 
+    font-weight:bold; 
+    text-align:center; 
+    padding:0 0 0 10px; 
+    cursor:pointer; 
+    background:url(../images/0a.gif) no-repeat;
+}
+.menu li a b {
+    float:left; 
+    display:block; 
+    padding:0 60px 0 0; 
+    background:url(../images/0.gif) no-repeat right top;
+}
+.menu li.current a {
+    color:#000; 
+    background:url(../images/2a.gif) no-repeat;
+}
+.menu li.current a b {
+    color:#000; 
+    background:url(../images/2.gif) no-repeat right top;
+}
+.menu li a:hover {
+    color:#000; 
+    background: url(../images/2a.gif) no-repeat;
+}
+.menu li a:hover b {
+    color:#000; 
+    background:url(../images/2.gif) no-repeat right top;
+}
+.menu li.current a:hover {
+    color:#000; 
+    cursor:default;
+}

@@ -1,0 +1,142 @@
+html {
+    text-align: center;
+}
+body {
+    background-color: #BDBDBD;
+}
+
+
+/*en tête*/
+#en-tete {
+    display: flex;
+    min-width: 100%;
+    background-color: #ff9800;
+    border: 3px solid #5D4037;
+    border-radius: 20px;
+}
+#en-tete-logo {
+    max-width: 185px;
+    padding: 15px;
+}
+#baba-logo {
+    max-height: 150px;
+    max-width: 150px;
+}
+#en-tete-titre {
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+h1 {
+    font-family: "Permanent Marker";
+    font-size: 3em;
+    font-weight: bold;
+}
+h1 span {
+    color: red;
+    font-style: italic;
+}
+h2 {
+    font-family: "Acme";
+}
+
+
+/*panneau bienvenu*/
+#aut {
+    text-align: center;
+    background-color: #ff9800;
+    min-height: 150px;
+    min-width: 315px;
+    max-width: 350px;
+    padding: 25px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #5D4037;
+    border-radius: 20px;
+}
+button {
+    background-color: #795548;
+    border-radius: 20px;
+    border-color: #5D4037;
+    color: #F44336;
+}
+#aut p {
+    font-size: 1.5em;
+    font-family: "Acme";
+}
+
+
+/*enregistrement*/
+div#register {
+    display: none;
+    background-color: #ff9800;
+    min-height: 150px;
+    max-height: 489px;
+    min-width: 315px;
+    max-width: 350px;
+    padding: 25px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #5D4037;
+    border-radius: 20px;
+    font-family: "Acme"
+}
+form#form01 {
+    background-color: #ff9800;
+    border: 3px solid #5D4037;
+    border-radius: 20px;
+    font-family: "Acme";
+    padding: 25px;
+}
+form li {
+    display: inline;
+    list-style-type: none;
+}
+.champ {
+    display: block;
+    float: right;
+}
+#val_register {
+    background-color: #5D4037;
+    border-radius: 20px;
+    border-color: #5D4037;
+    display: block;
+    float: right;
+    margin-bottom: 25px;
+    color: #F44336;
+}
+div#form_connection {
+    background-color: #ff9800;
+    min-height: 150px;
+    max-height: 100%;
+    min-width: 315px;
+    max-width: 350px;
+    padding: 25px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #5D4037;
+    border-radius: 20px;
+    font-family: "Acme"
+}
+form#form02 {
+    background-color: #ff9800;
+    border: 3px solid #5D4037;
+    border-radius: 20px;
+font-family: "Acme";
+padding: 25px;
+}
+#val_connect_user {
+    background-color: #5D4037;
+    border-radius: 20px;
+    border-color: #5D4037;
+    display: block;
+    float: right;
+    margin-bottom: 25px;
+    color: #F44336;
+}
+#form_connection {
+    display: none;
+}
