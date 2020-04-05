@@ -1,0 +1,80 @@
+Requêtes SQL
+Faites dans un premier temps de manière autonome sans regarder la correction, sauf en cas d'échec ou de manque de source. Ensuite 
+corrigées grâce à la correction et interprêtées pour comprendre mes erreurs. Des questions sont posées pour tout ce qui m'échappe 
+encore, du moins ce que j'ai conscience.
+
+
+1) 	// SELECT products.name, products.model_year, products.price, categories.nameCat, brands.brand_name 
+	// FROM products
+	// INNER JOIN categories ON products.category_id = categories.idCat
+	// INNER JOIN brands ON products.brands = brands.brand_id
+	// WHERE brands.brand_name = 'trek'
+	// AND categories.nameCat = 'Electric Bikes';
+
+	QUESTIONS:
+		- Pourquoi mettre "products" avant les élements recherchés alors qu'on le renseigne plus tard dans "FROM"?
+	Ne peut on pas dire: 	SELECT product_name, model_year, liste_price, category_name, brand_name
+				FROM products, categories, brands
+		- Le reste je ne l'ai pas compris entièrement, la logique je vois à peu près mais la syntaxe m'échappe totalement...
+		- A aucun moment on demande 'HARO', j'ai cru comprendre qu'une requête SQL était une demande indirecte de
+	résultat, en ne demandant pas de manière abrupte et franche ce que l'on recherche mais en renseignant comment le trouver.
+	il n'y a pas de formulation pour que 'HARO'fasse partie de la requête d'un façon tout aussi efficace? Ou il faudra
+	toujours utiliser ce genre de formule?
+
+2)	// SELECT products.name, products.model_year, categories.nameCat, brands.brand_name, products.price AS PrixHT,
+	// CAST(products.price*0.2 AS DECIMAL(9,2)) AS Tva,
+	// CAST(products.price*1.2 AS DECIMAL(9,2)) AS PrixHT
+	// FROM products
+	// INNER JOIN categories ON products.category_id = categories.idCat
+	// INNER JOIN brands ON products.brand_id = brands.brand_id;
+
+	QUESTIONS:
+		- "products.price AS prixHT" peut-il être renseigné après, comme une opération indique le résultat à la fin? 
+		- J'ai remarqué que tu avais fait le même code en écriture contractée, je nbe me suis pas attardé dessus.
+		- Est-ce normal si un point-virgule manque à la fin de ton instruction? j'ai cru comprendre que celle ci ne prennait
+	fin qu'en y mettant un point-virgule, peut-on s'en passer?
+
+4)	// SELECT products.name, products.model_year, products.price AS PrixHT, brands.brand_name
+	// FROM products
+	// INNER JOIN brands ON products.brand_id = brands.brand_id
+	// WHERE brands.brand_name LIKE 'H%'
+
+5)	// SELECT products.name, products.model_year, products.price AS PrixHT
+	// FROM products
+	// WHERE products.name LIKE '%Ice%';
+
+6)	// SELECT products.name
+	// FROM products
+	// INNER JOIN brands ON products.brand_id = brands.brand_id
+	// DELETE brands.name LIKE 'Trek';
+
+	QUESTIONS:
+		- Pourquoi mettre des '%' dans l'exercice précédent et pas dans celui là?
+
+7)	// DELETE FROM categories.name
+	// WHERE categories.category_name = (SELECT categories.category_name FROM categories WHERE categories.category_name = 'Mountain Bikes');
+
+	QUESTIONS:
+		- Faut-il mettre le chemin complet de l'entité? j'ai remarqué que ce n'est pas toujours le cas, pourquoi?
+
+8)	// UPDATE products SET products.price = 1499 WHERE products.id = 9;
+
+	QUESTIONS:
+		- Cette commande est affreusement simple néanmoins je n'ai pas du tout réussi à le faire par moi-même.
+
+9)	// INSERT INTO categories(categories.nameCat) VALUE('Roller skates');
+
+10)	// INSERT INTO products(products.name, 
+products.brand_id, products.category_id, products.model_year, products.price)
+
+	// VALUES ('roller skates cool',
+ (SELECT categories.idCat 
+FROM categories 
+WHERE categories.nameCat = "Roller skates"), 
+
+	// 	  (SELECT brands.brand_id FROM brands 
+WHERE brands.brand_name = "Haro"), 
+2020, 258 );
+
+	QUESTIONS:
+		- J'ai atteint mes limites, je n'ai absolument rien compris au dernier exo.
