@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../locationMaison-boots" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -50,6 +50,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587459397683</updated>
       <workItem from="1587459398911" duration="14880000" />
+      <workItem from="1587537506533" duration="38000" />
+      <workItem from="1587537545109" duration="13654000" />
     </task>
     <servers />
   </component>
@@ -57,9 +59,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="512" y="460" key="FileChooserDialogImpl" timestamp="1587459813281">
+    <state x="1002" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587562443978">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="512" y="460" key="FileChooserDialogImpl/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1587459813281" />
+    <state x="1002" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1587562443978" />
+    <state x="512" y="460" key="FileChooserDialogImpl" timestamp="1587537542154">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="512" y="460" key="FileChooserDialogImpl/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1587537542154" />
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1587537519828">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1587537519828" />
   </component>
 </project>

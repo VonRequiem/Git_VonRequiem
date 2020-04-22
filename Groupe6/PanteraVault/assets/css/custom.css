@@ -4,3 +4,7 @@
 .icone-logo {
     max-width: 100px;
 }
+.card-img-top {
+    height: 135px;
+    width: auto;
+}
