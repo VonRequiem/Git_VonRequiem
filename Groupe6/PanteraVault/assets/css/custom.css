@@ -1,10 +1,50 @@
 .icone {
     max-width: 20px;
 }
+.icone2 {
+    max-width: 30px;
+}
 .icone-logo {
     max-width: 100px;
 }
 .card-img-top {
-    height: 135px;
+    height: 350px;
     width: auto;
+}
+.card-body {
+    height: 250px;
+}
+.card-body h4 {
+    text-align: center;
+}
+.card-body p {
+    padding-top: 50px;
+}
+.ajout {
+    text-align: center;
+}
+cfh_row {
+    justify-content: center;
+}
+.col {
+    padding: 5px;
+    max-width: 145px;
+}
+.col img {
+    max-height: 130px;
+    max-width: 130px;
+}
+.infoGen1 {
+
+}
+.infoGen2 {
+
+}
+.infoGen2 img {
+    max-width: 150px;
+    max-height: 150px;
+    align-self: center;
+}
+.infoGen3 {
+
 }
