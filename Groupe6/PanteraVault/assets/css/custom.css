@@ -3,9 +3,11 @@
 }
 .icone2 {
     max-width: 30px;
+    max-height: 30px;
 }
 .icone-logo {
     max-width: 100px;
+    margin: 0;
 }
 .card-img-top {
     height: 350px;
@@ -22,9 +24,6 @@
 }
 .ajout {
     text-align: center;
-}
-cfh_row {
-    justify-content: center;
 }
 .col {
     padding: 5px;
@@ -47,4 +46,19 @@ cfh_row {
 }
 .infoGen3 {
 
+}
+.cfh img {
+    width: 250px;
+    height: 250px;
+}
+.text-black {
+    color: black;
+}
+.carousel-caption {
+    width: 100%;
+    right: 0!important;
+    left: 0!important;
+}
+.bg-dark2 {
+    background-color: rgba(52, 58, 64, 0.8);
 }
