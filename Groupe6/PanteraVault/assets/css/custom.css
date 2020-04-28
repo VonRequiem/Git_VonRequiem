@@ -6,8 +6,13 @@
     max-height: 30px;
 }
 .icone-logo {
-    max-width: 100px;
+    max-width: 120px;
+    max-height: 120px;
     margin: 0;
+}
+.iconePan {
+    margin: 10px auto 10px auto;
+    max-width: 20px;
 }
 .card-img-top {
     height: 350px;
@@ -25,6 +30,57 @@
 .ajout {
     text-align: center;
 }
+.ajout_titre {
+    font-family: 'IM Fell Double Pica SC', serif;
+    color: black!important;
+}
+.cardBox {
+    min-width: 12rem;
+    border: 1px solid black;
+}
+.card-img-top-ajout {
+    width: 250px;
+    height: 250px;
+}
+.btnCard-ajout {
+    border: 1px solid black;
+    color: black!important;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 20px;
+}
+.card-title-ajout {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+}
+.card-text-ajout {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 20px;
+}
+.boutiquePresentMedia {
+    min-width: 1600px!important;
+}
+.boutiquePresent {
+    height: 367px;
+    width: 661px;
+}
+.boutiquePresentTitre {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 40px;
+    color: black;
+}
+.boutiquePresentText {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+    color: black;
+}
+.boutiquePresentText2 {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 35px;
+    color: black;
+}
+.markSlide {
+    height: 250px;
+}
 .col {
     padding: 5px;
     max-width: 145px;
@@ -33,26 +89,98 @@
     max-height: 130px;
     max-width: 130px;
 }
+.infoGenContainer {
+    width: 1600px!important;
+}
 .infoGen1 {
-
+    height: 360px;
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+}
+.telCardBoutique {
+    color: black!important;
+    margin: 0;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 20px;
+}
+.mail1CardBoutique {
+    font-family: 'IM Fell Double Pica SC', serif;
+    margin: 0;
+    color: black!important;
+    font-size: 20px;
+}
+.mail2CardBoutique {
+    font-size: 20px;
+}
+.liCardBoutique {
+    list-style: none;
+    color: black!important;
 }
 .infoGen2 {
-
+    height: 360px;
+    width: 417px!important;
+    padding: 20px;
+    margin: 10px;
 }
 .infoGen2 img {
     max-width: 150px;
     max-height: 150px;
     align-self: center;
 }
+.card-linkLogo {
+    color: black;
+    padding-bottom: 10px;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 20px;
+}
+.card-textLogo {
+    color: black!important;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 20px;
+}
+.form-groupLogo1 {
+    width: 371px;
+    margin: 0;
+}
+.form-groupLogo2 {
+    font-family: 'IM Fell Double Pica SC', serif;
+    color: black!important;
+    border: 2px solid black!important;
+}
 .infoGen3 {
-
+    height: 360px;
+    width: 280px;
+    padding: 5px 0 0 20px;
+    margin: 10px;
+}
+.infoGen3 li::marker {
+    list-decoration: none!important;
+}
+.liRecap {
+    color: black!important;
+    list-style: none;
+    margin: 5px;
+    font-family: 'IM Fell Double Pica SC', serif!important;
+    font-size: 25px;
+}
+.text1-fineBande {
+    color: black!important;
+    margin-right: 20px;
+    margin-bottom: 0;
+    padding: 8px;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 20px;
+}
+.text2-fineBande {
+    color: black!important;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 20px;
+    margin-right: 15px;
 }
 .cfh img {
     width: 250px;
     height: 250px;
-}
-.text-black {
-    color: black;
 }
 .carousel-caption {
     width: 100%;
@@ -62,3 +190,72 @@
 .bg-dark2 {
     background-color: rgba(52, 58, 64, 0.8);
 }
+.vignetteLogo {
+    min-width: 400px;
+}
+.vignetteTitre {
+    margin: auto;
+    font-family: 'Shojumaru', cursive;
+    font-size: 40px;
+}
+.rechercheTitre {
+    min-width: 250px;
+}
+.resSocTitre {
+    min-width: 130px;
+}
+.navBar {
+    border-top: 1px solid black;
+}
+.contenuText {
+    color: black!important;
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+.contenuTextConnect {
+    color: black!important;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 20px;
+}
+.navPantera {
+    font-family: 'Shojumaru', cursive;
+}
+.carou {
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+.panteraBand {
+    height: 900px;
+    max-width: 1080px;
+    margin: auto;
+}
+.goodies {
+    height: 900px;
+    max-width: 1080px;
+    margin: auto;
+}
+.matos {
+    height: 900px;
+    margin: auto;
+}
+.panteraLegend {
+    height: 900px;
+    max-width: 1600px;
+    margin: auto;
+}
+.btnInfo {
+    min-height: 75px;
+    font-family: 'IM Fell Double Pica SC', serif;
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cardProduit {
+    width: 12rem;
+    border: 1px solid black;
+}
+.contenuTextCardProduit {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 25px;
+    color: black;
+}
+
