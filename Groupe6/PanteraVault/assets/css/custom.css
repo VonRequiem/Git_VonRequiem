@@ -159,7 +159,7 @@
 }
 .liRecap {
     color: black!important;
-    list-style: none;
+    list-style: none!important;
     margin: 5px;
     font-family: 'IM Fell Double Pica SC', serif!important;
     font-size: 25px;
@@ -221,6 +221,7 @@
 }
 .carou {
     font-family: 'IM Fell Double Pica SC', serif;
+    max-height: 900px;
 }
 .panteraBand {
     height: 900px;
@@ -258,4 +259,131 @@
     font-size: 25px;
     color: black;
 }
+.philPresentMedia {
+    min-width: 1110px!important;
+    padding: 0 15px 0 0!important;
+}
+.philPresent {
+    height: auto;
+    width: auto;
+}
+.philPresentTitre {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 40px;
+    color: black;
+}
+.philPresentText {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+    color: black;
+}
+.philPresentText2 {
+    color: #9b9b9b;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+}
+.philPresentTitre2 {
+    color: #9b9b9b;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 40px;
+}
+.dimePresentMedia {
+    min-width: 1110px!important;
+    padding: 0 15px 0 0!important;
+}
+.dimePresent {
+    height: auto;
+    width: auto;
+}
+.dimePresentTitre {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 40px;
+    color: black;
+}
+.dimePresentText {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+    color: black;
+}
+.dimePresentText2 {
+    color: #9b9b9b;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+}
+.dimePresentTitre2 {
+    color: #9b9b9b;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 40px;
+}
+.dimeList {
+    list-style: none;
+}
+.rexPresentMedia {
+    min-width: 1110px!important;
+    padding: 0 15px 0 0!important;
+}
+.rexPresent {
+    height: auto;
+    width: auto;
+}
+.rexPresentTitre {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 40px;
+    color: black;
+}
+.rexPresentText {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+    color: black;
+}
+.rexPresentText2 {
+    color: #9b9b9b;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+}
+.rexPresentTitre2 {
+    color: #9b9b9b;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 40px;
+}
+.rexPresentText3 {
+    font-style: italic;
+    color: black;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+}
+.vinniePresentMedia {
+    min-width: 1110px!important;
+    padding: 0 15px 0 0!important;
+}
+.vinniePresent {
+    height: auto;
+    width: auto;
+}
+.vinniePresentTitre {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 40px;
+    color: black;
+}
+.vinniePresentText {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+    color: black;
+}
+.vinniePresentText2 {
+    color: #9b9b9b;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+}
+.vinniePresentTitre2 {
+    color: #9b9b9b;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 40px;
+}
+.vinniePresentText3 {
+    color: #9b9b9b;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+}
+
 

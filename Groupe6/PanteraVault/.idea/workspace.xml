@@ -30,10 +30,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../locationMaison-boots" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Von Requiem\PhpstormProjects\PanteraVault\src\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Von Requiem\PhpstormProjects\PanteraVault\assets\js" />
       <recent name="C:\Users\Von Requiem\PhpstormProjects\PanteraVault\assets\css" />
@@ -56,6 +59,9 @@
       <workItem from="1587640215183" duration="13741000" />
       <workItem from="1587709734219" duration="20905000" />
       <workItem from="1588075607683" duration="17111000" />
+      <workItem from="1588094390472" duration="1430000" />
+      <workItem from="1588199622345" duration="180000" />
+      <workItem from="1588574254262" duration="24864000" />
     </task>
     <servers />
   </component>
@@ -67,14 +73,23 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1002" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1587562443978" />
-    <state x="512" y="460" key="FileChooserDialogImpl" timestamp="1587640212197">
+    <state x="512" y="460" key="FileChooserDialogImpl" timestamp="1588574670597">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="512" y="460" key="FileChooserDialogImpl/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1587640212197" />
-    <state x="975" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1588094392297">
+    <state x="512" y="460" key="FileChooserDialogImpl/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588574670597" />
+    <state x="1115" y="622" key="NewPhpFileDialog" timestamp="1588574924123">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1115" y="622" key="NewPhpFileDialog/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588574924123" />
+    <state x="731" y="388" key="com.intellij.ide.util.TipDialog" timestamp="1588199624589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="388" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588199624589" />
     <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588094392297" />
+    <state x="1576" y="325" key="run.anything.popup" timestamp="1588589101874">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1576" y="325" key="run.anything.popup/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588589101874" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1588092982041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
