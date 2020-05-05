@@ -62,6 +62,8 @@
       <workItem from="1588094390472" duration="1430000" />
       <workItem from="1588199622345" duration="180000" />
       <workItem from="1588574254262" duration="24864000" />
+      <workItem from="1588614893577" duration="3097000" />
+      <workItem from="1588661123302" duration="11087000" />
     </task>
     <servers />
   </component>
@@ -73,19 +75,19 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1002" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1587562443978" />
-    <state x="512" y="460" key="FileChooserDialogImpl" timestamp="1588574670597">
+    <state x="512" y="460" key="FileChooserDialogImpl" timestamp="1588675002715">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="512" y="460" key="FileChooserDialogImpl/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588574670597" />
+    <state x="512" y="460" key="FileChooserDialogImpl/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588675002715" />
     <state x="1115" y="622" key="NewPhpFileDialog" timestamp="1588574924123">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1115" y="622" key="NewPhpFileDialog/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588574924123" />
-    <state x="731" y="388" key="com.intellij.ide.util.TipDialog" timestamp="1588199624589">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1588661132934">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="731" y="388" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588199624589" />
-    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588094392297" />
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588661132934" />
     <state x="1576" y="325" key="run.anything.popup" timestamp="1588589101874">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
