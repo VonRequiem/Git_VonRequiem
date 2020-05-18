@@ -151,15 +151,14 @@
 .infoGen3 {
     height: 360px;
     width: 280px;
-    padding: 5px 0 0 20px;
+    padding: 20px 0 0 20px;
     margin: 10px;
 }
-.infoGen3 li::marker {
-    list-decoration: none!important;
+.infoGen3 ul {
+    list-style-type: none!important;
 }
 .liRecap {
     color: black!important;
-    list-style: none!important;
     margin: 5px;
     font-family: 'IM Fell Double Pica SC', serif!important;
     font-size: 25px;
@@ -266,7 +265,8 @@
 }
 .philPresent {
     height: auto;
-    width: auto;
+    width: 740px;
+    margin: 0!important;
 }
 .philPresentTitre {
     font-family: 'IM Fell Double Pica SC', serif;
@@ -277,11 +277,23 @@
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 30px;
     color: black;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .philPresentText2 {
     color: #9b9b9b;
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.philPresentText3 {
+    color: #9b9b9b;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 355px;
 }
 .philPresentTitre2 {
     color: #9b9b9b;
@@ -427,5 +439,53 @@
 .label-enregistrer {
     color: black;
 }
+.card-articles {
+    max-width: 540px!important;
+    height: 180px!important;
+    margin: 15px;
+}
+.card-body-articles h5 {
+    font-family: 'IM Fell Double Pica SC', serif!important;
+}
+.card-body-articles {
+    padding: 0 20px 0 70px;
+    height: 150px;
+}
+.container-card-articles {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.card-text-article {
+    font-family: 'IM Fell Double Pica SC', serif!important;
+    color: black!important;
+}
+.card-img-articles {
+    max-height: 150px!important;
+    max-width: 230px!important;
+}
+.btn-articles{
+    font-family: 'IM Fell Double Pica SC', serif!important;
+    color: #6c757d;
+    font-size: 25px;
+    border: 1px solid black;
+    position: absolute!important;
+    bottom: 0!important;
+    right: 20px;
+}
+.square {
+    max-width: 65px!important;
+    height: auto!important;
+}
+#scrollUp1 {
+    position: fixed;
+    bottom : 90px;
+    right: 20px;
+}
+#scrollUp2 {
+    position: fixed;
+    bottom : 20px;
+    right: 20px;
+}
+
 
 
