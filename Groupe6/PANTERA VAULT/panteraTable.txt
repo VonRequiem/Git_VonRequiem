@@ -1,0 +1,157 @@
+
+
+identifier les informations du site
+
+identifier les entités (user) 
+ 
+
+membres => matos 
+	
+
+user => visiteurs   
+	admins
+	enregistrés 
+	
+produits 	=> 	albums 	=> 	date   
+					prix
+					nb de pistes
+					artistes
+					maison de disque
+
+
+		=> 	instruments 	=>	guitares	=>	prix
+									modéle
+									marque
+									nb de frettes
+									nb de micros	=> 	modèle
+											 	marque
+
+									vibrato		=> 	oui ou non
+												modèle
+												marque
+									nb de stock
+
+						amplis		=>	modèle
+									marque
+									puissance
+									prix
+									nb de stock
+
+						effets		=>	pédale		=>	guitare		=>	marque
+															modèle
+															type d'effet
+															prix
+															nb de stock
+
+												basse		=>	marque 
+															modèle 
+															type d'effet
+															prix
+															nb de stock
+
+						pré-ampli	=>	marque 
+									modèle
+									instrument
+									prix
+									nb de stock
+
+						basse		=>	marque
+									modèle
+									micros
+									prix
+									nb de stock
+			
+						batterie 	=>	elements	=>	type
+												marque
+												prix
+												nb de stock
+
+		=>	goodies		=>	t-shirts	=>	taille
+									prix
+									marque
+									nb de stock
+									matière
+
+						posters		=>	dimensions
+									prix
+									marque
+									nb de stock
+
+						mugs		=>	nb de stock
+									prix
+									marque
+									matière
+
+						dvd		=>	nb de stock
+									prix
+									distributeur
+									format vidéo
+
+						patchs		=>	dimensions
+									prix
+									distributeur
+									nb de stock
+
+
+
+une partie fan page (forum?)
+une partie boutique (exclu pantera) 	=> pages articles détaillés et page articles liste 
+					=> page panier 
+					=> choix du mode de livraison 
+					=> page confirmation de commande avec total comprenant la livraison 
+					=> page confirmation (total, livraison, adresse facturation/livraison, mode de paiement)
+					=> page de paiement 
+					=> récap téléchargeable de la facture (retour site)
+
+une partie gestion du site pour les admins (gestion des stocks, ajout/suppression articles, gestion prix, gestion info (modif ou ajout/suppression))
+
+utilisateurs enregistrés	=>	id 
+					nom
+					adresse	(facturation et livraison)
+					historique de commande
+					joue d'un instrument oui/non
+					collection
+					date de naissance (pour les alert anniv)              
+					droits admin oui/non
+					admin gestion/admin dev
+
+membres du groupe => lien vers la page officielle + info légales
+
+
+
+
+
+
+dictionnaire de données
+musiciens : id, nom, prenom, age, rôle, description courte, description longue, 
+user : id, nom, prenom, age, adresse facture, adresse livraison, date d'inscription, email, mdp, rôle, statut,
+product : id, nom, marque, type, prix, distributeur, description courte, description détail,
+categorie : id, nom 
+image : id, nom
+adresse :  id, type, numero, rue, code postal, ville, pays, complément d'adresse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
