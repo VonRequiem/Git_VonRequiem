@@ -312,16 +312,23 @@
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 40px;
     color: black;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .dimePresentText {
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 30px;
     color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+
 }
 .dimePresentText2 {
     color: #9b9b9b;
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .dimePresentTitre2 {
     color: #9b9b9b;
@@ -348,11 +355,15 @@
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 30px;
     color: black;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .rexPresentText2 {
     color: #9b9b9b;
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .rexPresentTitre2 {
     color: #9b9b9b;
@@ -364,6 +375,8 @@
     color: black;
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .vinniePresentMedia {
     min-width: 1110px!important;
@@ -377,16 +390,21 @@
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 40px;
     color: black;
+
 }
 .vinniePresentText {
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 30px;
     color: black;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .vinniePresentText2 {
     color: #9b9b9b;
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .vinniePresentTitre2 {
     color: #9b9b9b;
@@ -397,6 +415,8 @@
     color: #9b9b9b;
     font-family: 'IM Fell Double Pica SC', serif;
     font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .card-img-top-connect {
     width: 617px;
@@ -486,6 +506,9 @@
     bottom : 20px;
     right: 20px;
 }
-
+.form-control-user-detail {
+    width: 100%;
+    display: flex!important;
+}
 
 

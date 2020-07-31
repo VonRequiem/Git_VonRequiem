@@ -1,0 +1,75 @@
+hr {
+    border-top: 1px solid sandybrown!important;
+    background-color: transparent;
+}
+body {
+    background-image: url("../img/wood.jpg");
+}
+h1 {
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+    color: sandybrown;
+    text-shadow: -1px -1px white, 1px 1px #333;
+}
+.enTete {
+    background-color: #17a2b8;
+    width: 100% !important;
+    max-height: 400px;
+    opacity: .99!important;
+}
+.btn-warning {
+    background-color: sandybrown!important;
+}
+.btn-outline-warning {
+    color: sandybrown!important;
+    border-color: sandybrown!important;
+}
+/*#spembad-tri_01 {
+
+    vertical-align: top!important;
+    float: right!important;
+    position: relative;
+    z-index: 1;
+}*/
+#titre {
+    text-shadow: -1px -1px white, 1px 1px #17a2b8!important;
+}
+#resume {
+    background-color: sandybrown !important;
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    width: 45%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+.resumeP {
+    /*text-align: center;*/
+}
+#form-contact {
+    background-color: #17a2b8;
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    width: 45%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+
+
+#scrollUp1 {
+    position: fixed;
+    bottom : 90px;
+    right: 20px;
+}
+#scrollUp2 {
+    position: fixed;
+    bottom : 20px;
+    right: 20px;
+}
+.square {
+    max-width: 65px!important;
+    height: auto!important;
+}

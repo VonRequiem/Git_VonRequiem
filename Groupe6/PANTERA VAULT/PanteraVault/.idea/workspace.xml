@@ -30,11 +30,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../locationMaison-boots" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SPEMBAD" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Von Requiem\PhpstormProjects\SPEMBAD" />
       <recent name="C:\Users\Von Requiem\PhpstormProjects\PanteraVault\src\views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -72,6 +73,31 @@
       <workItem from="1589450824515" duration="1198000" />
       <workItem from="1589525154191" duration="2184000" />
       <workItem from="1589786460286" duration="12502000" />
+      <workItem from="1590476159973" duration="2008000" />
+      <workItem from="1591018292576" duration="887000" />
+      <workItem from="1591599642479" duration="1000" />
+      <workItem from="1591600850200" duration="857000" />
+      <workItem from="1591601957896" duration="1545000" />
+      <workItem from="1591683294900" duration="12760000" />
+      <workItem from="1591942183713" duration="6114000" />
+      <workItem from="1592290693403" duration="5223000" />
+      <workItem from="1592380082783" duration="12139000" />
+      <workItem from="1592546566571" duration="5458000" />
+      <workItem from="1592806359560" duration="5171000" />
+      <workItem from="1592986747693" duration="1804000" />
+      <workItem from="1593088675041" duration="23504000" />
+      <workItem from="1593192827462" duration="2255000" />
+      <workItem from="1593418140866" duration="19430000" />
+      <workItem from="1593583276788" duration="6723000" />
+      <workItem from="1593676397060" duration="7000" />
+      <workItem from="1593676906515" duration="1269000" />
+      <workItem from="1594016921755" duration="11387000" />
+      <workItem from="1594304784357" duration="752000" />
+      <workItem from="1594804340404" duration="2820000" />
+      <workItem from="1594818130495" duration="1358000" />
+      <workItem from="1594883208439" duration="3951000" />
+      <workItem from="1595323622491" duration="976000" />
+      <workItem from="1595833436037" duration="5912000" />
     </task>
     <servers />
   </component>
@@ -79,31 +105,39 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="987" y="289" key="#PHP" timestamp="1593193521784">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="987" y="289" key="#PHP/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1593193521784" />
     <state x="1002" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589196685586">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1002" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1589196685586" />
-    <state x="512" y="460" key="FileChooserDialogImpl" timestamp="1589826012997">
+    <state x="512" y="460" key="FileChooserDialogImpl" timestamp="1595842639534">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="512" y="460" key="FileChooserDialogImpl/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1595842639534" />
     <state x="512" y="460" key="FileChooserDialogImpl/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1589826012997" />
-    <state x="1115" y="622" key="NewPhpFileDialog" timestamp="1588574924123">
+    <state x="1236" y="769" key="NewPhpFileDialog" timestamp="1594050544588">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1236" y="769" key="NewPhpFileDialog/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1594050544588" />
     <state x="1115" y="622" key="NewPhpFileDialog/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588574924123" />
-    <state x="975" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1589786681696">
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1595833436171">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="731" y="388" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588199624589" />
-    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1589786681696" />
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1595833436171" />
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1591018294148" />
     <state x="-553" y="308" key="run.anything.popup" timestamp="1589807674130">
       <screen x="-1440" y="99" width="1440" height="900" />
     </state>
     <state x="-553" y="308" key="run.anything.popup/0.0.2560.1400/-1440.99.1440.900@-1440.99.1440.900" timestamp="1589807674130" />
     <state x="1576" y="325" key="run.anything.popup/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588589101874" />
-    <state x="-910" y="302" width="672" height="436" key="search.everywhere.popup" timestamp="1589810477992">
-      <screen x="-1440" y="99" width="1440" height="900" />
+    <state x="942" y="316" width="1195" height="679" key="search.everywhere.popup" timestamp="1593593033325">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="942" y="316" width="1195" height="679" key="search.everywhere.popup/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1593593033325" />
     <state x="-910" y="302" width="672" height="436" key="search.everywhere.popup/0.0.2560.1400/-1440.99.1440.900@-1440.99.1440.900" timestamp="1589810477992" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1440.99.1440.900@0.0.2560.1400" timestamp="1588092982041" />
   </component>
