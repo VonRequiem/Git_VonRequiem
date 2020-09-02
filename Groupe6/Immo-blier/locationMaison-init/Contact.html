@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="LocationMaison.css" />
+    <title>Nous contacter</title>
+</head>
+<body>
+<!--En-tête-->
+<header>
+    <div>
+        <img id="Blier" src="assets/img/BernardBlier.jpg">
+    </div>
+    <div id="entete_centre">
+        <h1>Bienvenue sur IMMO-Blier!!</h1>
+        <p>Le site de ventes et locations de biens immobiliers de Bernard Blier!</p>
+        <p>"Chez moi on ne vends pas, on ventile!!"</p>
+    </div>
+    <div id="entete_droit">
+        <p>Se connecter</p>
+    </div>
+</header>
+<!--menu-->
+<div class="menu">
+    <ul>
+        <li><a href="LocationMaison.html">Accueil</a></li>
+        <li>Acheter</li>
+        <li><a href="locationMaison_Louer.html">Louer</a></li>
+        <li>Estimer</li>
+        <li>Nos Agences</li>
+        <li><a href="Contact.html">Nous Contacter</a></li>
+    </ul>
+</div>
+<!--Presentation centre de page-->
+<!--j'ai regardé un exemple sur le net pour creer le formulaire-->
+<form id="contact" method="post" action="">
+    <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" tabindex="1" /></p>
+    <p><label for="email">Email :</label><input type="text" id="email" name="email" tabindex="2" /></p>
+
+    <p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="50" rows="8"></textarea></p>
+
+    <div style="text-align:center;"><input type="submit" name="envoi" value=" Envoyer " /></div>
+</form>
+
+
+<footer>
+
+</footer>
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>

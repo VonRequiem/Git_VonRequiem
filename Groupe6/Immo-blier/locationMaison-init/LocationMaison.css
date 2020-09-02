@@ -1,0 +1,44 @@
+/*je n'ai pas réussi à placer mes elements comme je le voulais,
+j'aurais bien voulu mettre un peu mieux en page mais ça me prennais
+trop de temps...*/
+body {
+    background-color: limegreen;
+    text-align: center;
+}
+#Blier {
+    max-width: 150px;
+    max-height: auto;
+}
+.img_picto {
+    max-width: 50px;
+    max-height: auto;
+}
+.img_house {
+    max-width: 600px;
+    max-height: auto;
+}
+#menu {
+    display: inline-flex;
+    background-color: yellow;
+    width: auto;
+}
+header {
+    display: inline-flex;
+    background-image: url("../img/marbre.jpg");
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+.house_ex {
+    display: inline-flex;
+    position: center;
+}
+#entete_centre {
+    align-items: center;
+}
+#entete_droit {
+    align-items: flex-end;
+}
+li {
+    list-style: none;
+}
