@@ -6,24 +6,68 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <script>
+        function visibilite(thingId) {
+            var targetElement;
+            targetElement = document.getElementById(thingId);
+            if (targetElement.style.display == "none") {
+                targetElement.style.display = "";
+            } else {
+                targetElement.style.display ="none";
+            }
+        }
+    </script>
 </head>
 <body>
 
 <!-- en tete -->
-<div class="jumbotron enTete">
-    <h1 class="display-4">SPEMBAD</h1>
-    <p class="lead">Société de Pose d'Equipements et de Matériaux du Bâtiment A Domicile</p>
-    <hr class="my-4">
-    <p>Bienvenue sur le site officiel de SPEMBAD!</p>
-    <a class="btn btn-outline-warning btn-lg" href="index.html" role="button">Accueil </a>
-    <a class="btn btn-warning btn-lg" href="presentation.html" role="button">Présentation </a>
-    <a class="btn btn-warning btn-lg" href="travaux.html" role="button">Nos Travaux </a>
-    <a class="btn btn-warning btn-lg" href="contact.html" role="button">Nous Contacter </a>
+<div>
+    <div class="jumbotron enTete">
+        <img src="assets/img/spembad-tri_01.png" id="spembad-tri" alt="">
+        <h1 class="display-4" id="spembad">SPEM<a class="btn-admin" href="" onclick="javascript:visibilite('connect-box'); return false;" role="button">B</a>AD</h1>
+        <p class="lead anag-spembad">Société de Pose d'Equipements et de Matériaux du Bâtiment A Domicile</p>
+
+        <hr class="my-4">
+
+        <p class="P-en-tete">Menu principal </p>
+        <a class="btn btn-outline-warning btn-lg" href="index.html" role="button">Accueil </a>
+        <a class="btn btn-warning btn-lg" href="presentation.html" role="button">Présentation </a>
+        <a class="btn btn-warning btn-lg" href="travaux.html" role="button">Nos Travaux </a>
+        <a class="btn btn-warning btn-lg" href="contact.html" role="button">Nous Contacter </a>
+
+    </div>
 </div>
 
+<!--boite connection admin-->
+<div class="container" id="connect-box" style="display: none;">
+    <section>
+        <form id="authform">
+            <h2><i class="fa fa-user-o" aria-hidden="true"></i>
+                ADMINISTRATION</h2>
+            <p>Ceci est un panneau de connexion administrateur. Si vous êtes étranger à cette fonction, veuillez partir immédiatement!</p>
+            <p>
+                <label for="login2">Identifiant</label>
+                <input id="login2" type="text" size="30" value="" name="login2" />
+            </p>
+            <p>
+                <label for="pwd2">Mot de passe</label>
+                <input class="btsubmit" id="pwd2" type="password" size="30" value="" name="pwd2" />
+            </p>
+            <p>
+                <input type="submit" value="Se connecter" name="goAuth" />
+            </p>
+        </form>
+    </section>
+</div>
 
+<!--présentation-->
+<div class="resumeMain justify-content-center d-flex">
+    <h1>Bienvenue sur le site officiel de SPEMBAD!</h1>
 
+    <p>Vous trouverez ici notre formulaire de contact pour faciliter vos demandes de travaux et la prise en charge de celles-ci. </p>
 
+    <p>Une brève présentation de nos travaux et de nos prestation. </p>
+</div>
 
 
 

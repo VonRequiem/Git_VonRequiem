@@ -30,8 +30,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PanteraVault" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -49,7 +50,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595842641776</updated>
-      <workItem from="1595842643037" duration="34540000" />
+      <workItem from="1595842643037" duration="37554000" />
+      <workItem from="1596440490178" duration="3234000" />
+      <workItem from="1596443741163" duration="8801000" />
+      <workItem from="1596523391412" duration="967000" />
+      <workItem from="1596789117615" duration="1029000" />
+      <workItem from="1597052251623" duration="16230000" />
+      <workItem from="1597222536445" duration="1122000" />
+      <workItem from="1597233696042" duration="3180000" />
+      <workItem from="1597315754132" duration="4225000" />
+      <workItem from="1597757452423" duration="10288000" />
+      <workItem from="1597845952397" duration="5000" />
+      <workItem from="1597846016964" duration="1060000" />
+      <workItem from="1597956762824" duration="12000" />
+      <workItem from="1598014357977" duration="671000" />
+      <workItem from="1598194159618" duration="212000" />
+      <workItem from="1598194392416" duration="215000" />
+      <workItem from="1598254114383" duration="4618000" />
+      <workItem from="1598598317034" duration="601000" />
+      <workItem from="1598901061605" duration="7273000" />
+      <workItem from="1598957406154" duration="1425000" />
     </task>
     <servers />
   </component>
@@ -61,6 +81,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1555" y="558" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1595855176023" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1598194413192">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1598194413192" />
     <state width="1627" height="362" key="GridCell.Tab.0.bottom" timestamp="1595857094610">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -77,5 +101,21 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1627" height="362" key="GridCell.Tab.0.right/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1595857094610" />
+    <state x="1115" y="622" key="NewPhpFileDialog" timestamp="1596458010318">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1115" y="622" key="NewPhpFileDialog/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1596458010318" />
+    <state x="781" y="331" key="SettingsEditor" timestamp="1598909421128">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="331" key="SettingsEditor/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1598909421128" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1596457951602">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1596457951602" />
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1598957406627">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="975" y="522" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1024.57.1024.768@0.0.2560.1400" timestamp="1598957406627" />
   </component>
 </project>

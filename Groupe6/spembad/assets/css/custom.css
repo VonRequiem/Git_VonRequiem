@@ -1,37 +1,96 @@
+/*general*/
 hr {
     border-top: 1px solid sandybrown!important;
     background-color: transparent;
 }
 body {
     background-image: url("../img/wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     font-family: 'FredokaOne-Regular.ttf', serif !important;
     color: sandybrown;
     text-shadow: -1px -1px white, 1px 1px #333;
 }
+.resumeMain {
+    background-color: sandybrown !important;
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    width: 45%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 25% 10%;
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+    font-size: 1.5em;
+}
+.resumeMain  h1  {
+    text-shadow: 3px 3px 4px #444444;
+    color: #17a2b8;
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+}
+
+/*en tête*/
 .enTete {
     background-color: #17a2b8;
     width: 100% !important;
     max-height: 400px;
     opacity: .99!important;
 }
+.anag-spembad {
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+}
+.P-en-tete {
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+    font-size: 2em;
+}
+
+
 .btn-warning {
     background-color: sandybrown!important;
+    box-shadow: 3px 3px 12px #444444;
+}
+.btn-warning:hover {
+    box-shadow: 1px 1px 4px #777777;
 }
 .btn-outline-warning {
     color: sandybrown!important;
     border-color: sandybrown!important;
+    box-shadow: 3px 3px 12px #444444;
 }
-/*#spembad-tri_01 {
+.btn-outline-warning:hover {
+    box-shadow: 1px 1px 4px #777777;
+    color: 
+}
+.btn-danger {
+    box-shadow: 3px 3px 12px #444444;
+}
+.btn-danger:hover {
+    box-shadow: 1px 1px 4px #777777;
+}
 
-    vertical-align: top!important;
-    float: right!important;
-    position: relative;
+#spembad-tri {
+    right: 0;
+    position: absolute;
     z-index: 1;
-}*/
+    top: 0;
+    width: 25%;
+}
+#spembad {
+    text-decoration: none;
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+    font-size: 3em;
+    color: sandybrown;
+    text-shadow: 3px 3px 4px #444444;
+}
+
+/*formulaire de contact*/
 #titre {
-    text-shadow: -1px -1px white, 1px 1px #17a2b8!important;
+    text-shadow: 3px 3px 4px #444444;
+    color: #17a2b8;
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
 }
 #resume {
     background-color: sandybrown !important;
@@ -42,23 +101,36 @@ h1 {
     border-right: 2px solid black;
     border-top: 1px solid black;
     border-left: 1px solid black;
+    border-radius: 25% 10%;
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+    font-size: 1.5em;
 }
 .resumeP {
-    /*text-align: center;*/
+    text-align: center;
 }
 #form-contact {
     background-color: #17a2b8;
-    padding: 15px;
-    margin: 20px auto 20px auto;
-    width: 45%;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
     border-top: 1px solid black;
     border-left: 1px solid black;
+    border-radius: 25% 10%;
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+    font-size: 1.5em;
+}
+.textarea-contact {
+    min-height: 150px;
+}
+.btn-envoyer {
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+    font-size: 1em;
+    box-shadow: 3px 3px 12px #444444;
+}
+.btn-envoyer:hover {
+    box-shadow: 1px 1px 4px #777777;
 }
 
-
-
+/*haut de page et retour page*/
 #scrollUp1 {
     position: fixed;
     bottom : 90px;
@@ -72,4 +144,169 @@ h1 {
 .square {
     max-width: 65px!important;
     height: auto!important;
+}
+
+/*bouton + panneau admin connection*/
+.btn-admin {
+    color: sandybrown!important;
+}
+.btn-admin:hover {
+    text-decoration: none;
+    color: sandybrown;
+}
+#authform {
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    margin: 20px auto;
+    background: url(http://www.quebecwoodexport.com/images/stories/slideshow/resineux/cedre/_ccedre.jpg) no-repeat;
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+    color: #553b18;
+    border-radius:10px;
+    box-shadow:5px 10px 10px #444444;
+}
+#authform h2 {
+    font-size: 160%;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #decfbb;
+}
+#authform h2 i.fa {
+    font-size: 140%;
+}
+#authform label {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #decfbb;
+    padding-left: 20px;
+}
+#authform label:before {
+    position: absolute;
+    display: block;
+    content: '';
+    top: 50%;
+    margin-top: -6px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 12px;
+    border-color: transparent transparent transparent #6f5430;
+}
+#authform input {
+    display: inline-block;
+    border-radius: 50px;
+    background: transparent;
+}
+#authform input:not([type=submit]) {
+    width: 60%;
+    padding: 6px 20px;
+    border: 1px inset #decfbb;
+    box-shadow: 0 10px 10px #6f5430 inset;
+}
+#authform input[type=submit] {
+    max-width: 132px;
+    border: 1px inset #decfbb;
+    box-shadow: 0 1px 2px #6f5430 inset;
+    font-weight: bold;
+    color: #6f5430;
+    text-shadow: 1px 1px 0px #decfbb;
+    padding: 5px 15px;
+    margin: 0 75%;
+    cursor: pointer;
+}
+#authform input[type=submit]:hover {
+    color: #553b18;
+    box-shadow: 0 1px 20px #6f5430 inset;
+}
+
+/*panel admin gauche*/
+.admin_panel {
+    background-color: sandybrown;
+    padding: 5px;
+    box-shadow: 3px 3px 12px #444444;
+    border-radius: 5px;
+}
+.dropdown-divider {
+    border-top: 1px solid #17a2b8!important;
+    background-color: transparent;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+li {
+    list-style: none;
+}
+
+/*btn tri*/
+.input-group {
+    /*box-shadow: 3px 3px 12px #444444;*/
+}
+.dropdown-tri {
+    background-color: #17a2b8;
+    color: black;
+}
+.dropdown-tri:hover,
+.dropdown-tri:checked,
+.dropdown-tri:visited {
+    background-color: sandybrown!important;
+    text-decoration-color: black!important;
+}
+.dropdown-item:hover,
+.dropdown-item:checked,
+.dropdown-item:visited {
+    background-color: #17a2b8!important;
+    text-decoration-color: black!important;
+}
+
+/*table admin*/
+#salutas {
+    color: #17a2b8!important;
+    font-size: 5rem;
+}
+.table-container {
+    border-collapse:collapse;
+    background-color: sandybrown;
+    box-shadow: 3px 3px 12px #444444;
+    border-radius: 5px;
+}
+tbody tr:nth-child(odd) {
+    background-color: #17a2b8;
+}
+tbody tr:nth-child(even) {
+    background-color: #007bff;
+}
+.btn-admin-bottom {
+    /*max-height: auto;*/
+}
+.mail_icon {
+     height: 30px !important;
+     width: auto !important;
+ }
+
+/*carrousel folio pair et impair*/
+.carousel-caption {
+    width: 100%;
+    right: 0!important;
+    left: 0!important;
+    color: #9b9b9b;
+}
+.carou {
+    font-family: 'FredokaOne-Regular.ttf', serif !important;
+    max-height: 20% !important;
+    min-width: 420px!important;
+    width: auto!important;
+}
+.carousel {
+    transform: scale(1) !important;
+    transition: .6s ease-in-out!important;
+}
+.carousel:hover {
+    transform: scale(2) !important;
+    z-index: 9999!important;
+    transition: .6s ease-in-out!important;
+}
+.carousel-item,
+.carousel-inner {
+    transform: scale(1) !important;
 }
