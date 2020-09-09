@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>SPEMBAD - Contact</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+
+
+<!-- en tete -->
+<div>
+    <div class="jumbotron enTete">
+        <img src="assets/img/spembad-tri_01.png" id="spembad-tri" alt="">
+        <h1 class="display-4" id="spembad">SPEMBAD</h1>
+        <p class="lead anag-spembad">Société de Pose d'Equipements et de Matériaux du Bâtiment A Domicile</p>
+
+        <hr class="my-4">
+
+        <p class="P-en-tete">Contactez nous!</p>
+        <a class="btn btn-warning btn-lg" href="index.html" role="button">Accueil </a>
+        <a class="btn btn-warning btn-lg" href="presentation.html" role="button">Présentation </a>
+        <a class="btn btn-warning btn-lg" href="travaux.html" role="button">Nos Travaux </a>
+        <a class="btn btn-outline-warning btn-lg" href="contact.html" role="button">Nous Contacter </a>
+
+    </div>
+</div>
+
+<!--boite connection admin-->
+<div class="container" id="connect-box" style="display: none;">
+        <section>
+            <form id="authform">
+                <h2><i class="fa fa-user-o" aria-hidden="true"></i>
+                    ADMINISTRATION</h2>
+                <p>Ceci est un panneau de connexion administrateur. Si vous êtes étranger à cette fonction, veuillez partir immédiatement!</p>
+                <p>
+                    <label for="login2">Identifiant</label>
+                    <input id="login2" type="text" size="30" value="" name="login2" />
+                </p>
+                <p>
+                    <label for="pwd2">Mot de passe</label>
+                    <input class="btsubmit" id="pwd2" type="password" size="30" value="" name="pwd2" />
+                </p>
+                <p>
+                    <input href="admin.html" type="submit" value="Se connecter" name="goAuth" />
+                </p>
+            </form>
+        </section>
+</div>
+
+
+
+
+
+<!--formulaire de contact-->
+
+    <!--resumé-->
+    <div id="resume" class="container col-md-12 text-center">
+            <h1 id="titre" class="text-center">FORMULAIRE DE CONTACT</h1>
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <p class="resumeP text-center">Bienvenue sur notre page de contact!</p>
+                <p class="resumeP text-center">Vous avez une demande concernant vos travaux? C'est ici que ça se passe !</p>
+                <p class="resumeP text-center">Remplissez notre formulaire de contact avec vos coordonnées et la nature de vos travaux afin de nous permettre de vous répondre le plus efficacement possible et ce dans les plus brefs délais.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--formulaire de contact-->
+    <div id="form-contact" class="container row col-md-6 offset-md-3">
+        <div class="col-md-10 offset-1 mt-5">
+            <p>Presentez vous !</p>
+            <form class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Nom">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Prénom">
+                    </div>
+            </form>
+        </div>
+
+        <div class="col-md-10 offset-md-1 mt-5">
+            <p>Pour que nous puissions vous contacter: </p>
+            <form class="form-row">
+                <div class="form-group col-md-7">
+                    <label for="inputEmail4">Votre E-mail :</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-5">
+                    <label for="inputTel4">Votre Téléphone :</label>
+                    <input type="tel" class="form-control" id="inputTel4">
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-10 offset-md-1 mt-5">
+                <p>Votre localité: </p>
+                <form class="form-row">
+                    <div class="form-group col-md-8">
+                        <label for="inputCity">Ville :</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputZip">Code Postal :</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </form>
+        </div>
+
+        <div class="col-md-10 offset-md-1 mt-5">
+                <p>Un bref résumé de votre demande :</p>
+                <div class="input">
+                    <textarea class="form-control textarea-contact" aria-label=""></textarea>
+                </div>
+        </div>
+
+        <br>
+
+        <div class="col-md-10 offset-md-1 mt-5">
+        <p>Votre demande recevra une réponse dans la limite des disponibilités de l'entreprise, celle-ci n'excédant pas de plus d'une semaine environ l'envoi de votre message (jours ouvrés).</p>
+        </div>
+
+        <div class="col-md-10 offset-md-1 mb-5">
+            <div class="text-right">
+                <button type="submit" class="btn btn-warning btn-envoyer mb-2">Envoyer</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="scrollUp1">
+    <a href="#top"><img src="assets/img/util/square-up.png" class="square"/></a>
+</div>
+<br>
+<div id="scrollUp2">
+    <a href="javascript:history.go(-1)"><img src="assets/img/util/square-left.png" class="square"></a>
+</div>
+
+
+
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>

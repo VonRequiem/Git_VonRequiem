@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>SPEMBAD - admin</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+</head>
+<body>
+
+<!-- en tete -->
+<div>
+    <div class="jumbotron enTete">
+        <img src="assets/img/spembad-tri_01.png" id="spembad-tri" alt="">
+        <h1 class="display-4" id="spembad">SPEMBAD</h1>
+        <p class="lead anag-spembad">Société de Pose d'Equipements et de Matériaux du Bâtiment A Domicile</p>
+
+        <hr class="my-4">
+
+        <p class="P-en-tete">Bienvenue sur le site officiel de SPEMBAD!</p>
+        <a class="btn btn-warning btn-lg" href="index.html" role="button">Accueil </a>
+        <a class="btn btn-warning btn-lg" href="presentation.html" role="button">Présentation </a>
+        <a class="btn btn-warning btn-lg" href="travaux.html" role="button">Nos Travaux </a>
+        <a class="btn btn-warning btn-lg" href="contact.html" role="button">Nous Contacter </a>
+        <a class="btn btn-warning btn-lg" href="admin.html" role="button">Messagerie </a>
+        <a class="btn btn-warning btn-lg" href="gestion_admin.html" role="button">Gestion contenu</a>
+
+    </div>
+</div>
+
+<!--détail message avec réponse admin-->
+<div class="container">
+    <!--affichage message en "dur"-->
+    <div class="row-md-12 descMessage">
+        <div class="descMessage">
+            <div class="jumbotron">
+                <p class="lead">Message de :</p>
+                <p class="lead">(result NOM) - (result PRENOM)</p>
+                <p class="lead">(result tel)</p>
+                <p class="lead">Localité :</p>
+                <p class="lead">(result VILLE) - (result CP)</p>
+                <hr class="my-4 sepDetailMessage">
+                <p>(result description de la demande)</p>
+            </div>
+        </div>
+
+    </div>
+    <!--réponse message-->
+    <div class="repMessage p-3 m-3">
+        <form method="post" action="sendEmail.php">
+
+            <textarea name="coucou" id="monTextArea">Madame, Monsieur </textarea>
+            <script>
+                CKEDITOR.replace('monTextArea')
+            </script>
+
+            <hr>
+            <h3>Pièces jointes</h3>
+            <!--la div qui serra utiliser pour afficher le formulaire-->
+            <div id="test"></div>
+            <hr>
+
+            <button type="submit" class="btn btn-success">Envoyer le mail</button>
+            <button type="button" class="btn btn-danger">Supprimer</button>
+            <button type="button" class="btn btn-warning">Archiver</button>
+
+            <!-- on inclus le plugin -->
+            <script type="text/javascript" src="uploader.js"></script>
+            <!-- on va dire avec jquery que le plugin doit s'effectuer sur l'element ayant comme id test -->
+            <script>
+                $('#test').uploader({
+                    url : "upload.php",
+                    url_remove: "remover.php"
+                })
+            </script>
+        </form>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="scrollUp1">
+    <a href="#top"><img src="assets/img/util/square-up.png" class="square"/></a>
+</div>
+<br>
+<div id="scrollUp2">
+    <a href="javascript:history.go(-1)"><img src="assets/img/util/square-left.png" class="square"></a>
+</div>
+
+
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
