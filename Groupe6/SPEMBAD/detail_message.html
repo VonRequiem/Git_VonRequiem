@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
 </head>
 <body>
 
@@ -34,28 +33,21 @@
 <!--détail message avec réponse admin-->
 <div class="container">
     <!--affichage message en "dur"-->
-    <div class="row-md-12 descMessage">
-        <div class="descMessage">
-            <div class="jumbotron">
-                <p class="lead">Message de :</p>
-                <p class="lead">(result NOM) - (result PRENOM)</p>
-                <p class="lead">(result tel)</p>
-                <p class="lead">Localité :</p>
-                <p class="lead">(result VILLE) - (result CP)</p>
-                <hr class="my-4 sepDetailMessage">
-                <p>(result description de la demande)</p>
-            </div>
-        </div>
-
+    <div class="row-md-12 p-3 m-3 descMessage jumbotron">
+        <p>Message de :</p>
+        <p class="lead">(result NOM) - (result PRENOM)</p>
+        <p class="lead">(result tel)</p>
+        <p>Localité :</p>
+        <p class="lead">(result VILLE) - (result CP)</p>
+        <hr class="my-4">
+        <p>(result description de la demande)</p>
     </div>
+
     <!--réponse message-->
     <div class="repMessage p-3 m-3">
         <form method="post" action="sendEmail.php">
 
-            <textarea name="coucou" id="monTextArea">Madame, Monsieur </textarea>
-            <script>
-                CKEDITOR.replace('monTextArea')
-            </script>
+            <textarea name="coucou" id="monTextArea">Madame, Monsieur, </textarea>
 
             <hr>
             <h3>Pièces jointes</h3>
@@ -67,22 +59,8 @@
             <button type="button" class="btn btn-danger">Supprimer</button>
             <button type="button" class="btn btn-warning">Archiver</button>
 
-            <!-- on inclus le plugin -->
-            <script type="text/javascript" src="uploader.js"></script>
-            <!-- on va dire avec jquery que le plugin doit s'effectuer sur l'element ayant comme id test -->
-            <script>
-                $('#test').uploader({
-                    url : "upload.php",
-                    url_remove: "remover.php"
-                })
-            </script>
         </form>
     </div>
-
-
-
-
-
 </div>
 
 
@@ -103,9 +81,22 @@
 </div>
 
 
-<script src="assets/js/jquery-3.4.1.min.js"></script>
 <script src="assets/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
 
+
+<!-- on inclus le plugin -->
+<script type="text/javascript" src="uploader.js"></script>
+<!-- on va dire avec jquery que le plugin doit s'effectuer sur l'element ayant comme id test -->
+<script>
+    $(document).ready(()=> {
+        CKEDITOR.replace('monTextArea');
+        $('#test').uploader({
+            url : "upload.php",
+            url_remove: "remover.php"
+        })
+    })
+</script>
 
 </body>
 </html>

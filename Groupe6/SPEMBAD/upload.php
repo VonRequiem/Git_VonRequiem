@@ -29,20 +29,27 @@ foreach ($allowed_exts as $allowed_ext) {
 
 //Si check est a true (pas besoin de specifier le == true)
 if($check) {
-  //on déplace le fichier vers sa destination finale
-  move_uploaded_file($_FILES["upload"]["tmp_name"], $target_file);
-  
-  //on va définir l'état de response a 0
-  $response->state = 0;
-  //on va définir le nom du fichier retournée par response
-  $response->fileName = $_FILES['upload']['name'];
-  //on va définir l'url retourné par response
-  $response->url = $target_file;
+    if (file_exists($target_file)) {
+        $response->state = 2;
+        $response->fileName = $_FILES['upload']['name'];
+        $response->url = $target_file;
+    }else{
+        //on déplace le fichier vers sa destination finale
+        move_uploaded_file($_FILES["upload"]["tmp_name"], $target_file);
+
+        //on va définir l'état de response a 0
+        $response->state = 0;
+        //on va définir le nom du fichier retournée par response
+        $response->fileName = $_FILES['upload']['name'];
+        //on va définir l'url retourné par response
+        $response->url = $target_file;
+    }
+
 
 } 
 //Si check est false
 else {
-  //on va définir l'état de response a 1 (ce qui signifie erreur dans ce cas présent cela signifie exactement que l'extention ne match pas avec notre array $allowed_exts)
+  //on va définir l'état de response a 1 (ce qui signifie erreur , dans ce cas présent cela signifie exactement que l'extention ne matche pas avec notre array $allowed_exts)
   $response->state = 1;
 }
 

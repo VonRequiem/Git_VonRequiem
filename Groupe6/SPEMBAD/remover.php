@@ -9,9 +9,9 @@ unlink($target_file);
 $response = new StdClass();
 
 if (file_exists($target_file)) {
-	$response = 1;
+	$response->state = 1;
 }else{
-	$response = 0;
+	$response->state = 0;
 }
 
 echo json_encode($response);
